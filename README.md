@@ -18,8 +18,8 @@ The web or mobile application will include the following functionalities:
 
 ### 3. Stable Diffusion AI Module
 The Stable Diffusion model will generate visuals based on user inputs. This module will operate as follows:
-- The user provides input through the UI (e.g., a text description).
-- This input is sent to the Stable Diffusion model.
+- The user provides input through the UI (e.g., a text description, sampling steps, CFG scale etc...).
+- This input is routed through the chain onto the node, then the Stable Diffusion model.
 - The model generates a visual based on the input and returns the result to the user.
 
 ### 4. GPU Leasing and Utilization System
@@ -32,13 +32,13 @@ This system allows users to lease other people's GPUs for AI computations:
 ### 5. Sui Blockchain Integration
 The Sui blockchain will be used for both NFT creation and managing GPU leasing transactions:
 - Generated visuals are converted into NFTs on the Sui blockchain.
-- Each NFT is sent to the user's wallet.
+- Each NFT is sent to the user's wallet, alongside with the option of downloading the result.
 - GPU leasing transactions are conducted via token transfers on the Sui blockchain.
 
 ### 6. RPC and Node Infrastructure
-The RPC and node infrastructure will provide access to GPUs for AI computations:
-- Users make RPC calls to initiate AI computations on the selected GPU.
-- These calls are routed to the appropriate GPUs, and computations are performed.
+The RPC and node infrastructure will be used to connect the AI nodes into the platform:
+- Users make requests on the platform to generate content.
+- These requests are routed to the sellers with appropriate GPUs and models, and computations are performed.
 - Results are returned to the user interface.
 
 ### Detailed Steps
@@ -47,10 +47,10 @@ The RPC and node infrastructure will provide access to GPUs for AI computations:
 3. **GPU Leasing**: Users select and lease an available GPU, paying the required amount of tokens.
 4. **AI Computations**: The leased GPU performs the AI computations, and the results are returned to the user.
 5. **NFT Creation**: Users convert the generated visuals into NFTs and record them on the Sui blockchain.
-6. **Token Transfers**: GPU owners earn tokens at the end of the leasing transaction.
+6. **Token Transfers**: GPU leasers earn tokens at the end of the leasing transaction.
 
 ### Technical Infrastructure and Requirements
-- **Web and Mobile Development**: Modern frameworks such as React, Vue.js, or Angular can be used.
+- **Web and Mobile Development**: Any modern web development framework can be used.
 - **AI Module**: Suitable frameworks (e.g., TensorFlow or PyTorch) can be used for the Stable Diffusion model.
 - **Blockchain Integration**: Sui SDK or similar tools can be used for integrating with the Sui blockchain.
 - **Backend and RPC Infrastructure**: Node.js or Python-based backend solutions can be used for managing RPC calls.
