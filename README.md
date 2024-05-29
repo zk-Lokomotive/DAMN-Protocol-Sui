@@ -1,6 +1,9 @@
 # DAMN-Protocol
 ## Decentralized AI Multi Purpose Network
-![logomark)](https://github.com/zk-Lokomotive/DAMN-Protocol/assets/158029357/8c3138bd-fdf7-42b7-a012-95094d663548)
+
+![roadmap(2)](https://github.com/zk-Lokomotive/DAMN-Protocol/assets/158029357/0446a701-3238-4426-8baf-f63737bba5f7)
+
+![roadmap(1)](https://github.com/zk-Lokomotive/DAMN-Protocol/assets/158029357/e389952d-f61c-4ec4-8347-151c03e75380)
 
 
 ### 0. Brandkit
