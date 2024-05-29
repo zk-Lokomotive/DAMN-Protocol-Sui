@@ -100,3 +100,30 @@ cd contracts
 ./scripts/deploy_gpu_leasing.sh
 ./scripts/deploy_nft_creation.sh
 ```
+### Start the Stable Diffusion Web UI
+
+   ```bash
+   cd stable-diffusion-webui
+   ./webui.sh
+   ```
+
+2. **Start the Backend Server**
+   ```bash
+   cd backend
+   node src/server.js
+   ```
+
+3. **Start the Frontend Application**
+   ```bash
+   cd frontend
+   npm run dev
+   ```
+
+4. **Test the Integration**
+   - Open the frontend application in your browser.
+   - Register or log in.
+   - Enter a text prompt and generate an image.
+   - Verify that the generated image is displayed.
+
+### References
+For more detailed information and troubleshooting, refer to the [AUTOMATIC1111/stable-diffusion-webui GitHub repository](https://github.com/AUTOMATIC1111/stable-diffusion-webui) [oai_citation:1,GitHub - AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) [oai_citation:2,GitHub - chenxiqiyuan/AUTOMATIC1111_stable-diffusion-webui: Stable Diffusion web UI](https://github.com/chenxiqiyuan/AUTOMATIC1111_stable-diffusion-webui) [oai_citation:3,AUTOMATIC1111/stable-diffusion-webui · Auto Wiki by Mutable.ai](https://wiki.mutable.ai/AUTOMATIC1111/stable-diffusion-webui).
