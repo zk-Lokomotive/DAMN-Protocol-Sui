@@ -1,17 +1,15 @@
 # DAMN-Protocol
 ## Decentralized AI Multi Purpose Network
 
+### 0. Brandkit
+![logomark)](https://github.com/zk-Lokomotive/DAMN-Protocol/assets/158029357/8c3138bd-fdf7-42b7-a012-95094d663548)
+
+### 1. Overall Architecture
+
 ![roadmap(2)](https://github.com/zk-Lokomotive/DAMN-Protocol/assets/158029357/0446a701-3238-4426-8baf-f63737bba5f7)
 
 ![roadmap(1)](https://github.com/zk-Lokomotive/DAMN-Protocol/assets/158029357/e389952d-f61c-4ec4-8347-151c03e75380)
 
-
-### 0. Brandkit
-
-
-### 1. Overall Architecture
-
-![diagram(42)](https://github.com/zk-Lokomotive/DAMN-Protocol/assets/158029357/c6aa76ac-5f28-47a1-ad6a-24ee882d3a56)
 
 The project will consist of the following main components:
 - **User Interface (UI)**: A web or mobile application where users can generate visuals using AI and convert them into NFTs on the **Sui blockchain**.
