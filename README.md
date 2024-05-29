@@ -2,6 +2,9 @@
 ## Decentralized AI Multi Purpose Network
 
 ### 1. Overall Architecture
+
+![diagram(42)](https://github.com/zk-Lokomotive/DAMN-Protocol/assets/158029357/c6aa76ac-5f28-47a1-ad6a-24ee882d3a56)
+
 The project will consist of the following main components:
 - **User Interface (UI)**: A web or mobile application where users can generate visuals using AI and convert them into NFTs on the **Sui blockchain**.
 - **Stable Diffusion AI Module**: The AI model responsible for visual generation.
