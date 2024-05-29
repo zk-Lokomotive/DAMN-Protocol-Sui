@@ -55,3 +55,48 @@ The RPC and node infrastructure will be used to connect the AI nodes into the pl
 - **Blockchain Integration**: Sui SDK or similar tools can be used for integrating with the Sui blockchain.
 - **Backend and RPC Infrastructure**: Node.js or Python-based backend solutions can be used for managing RPC calls.
 - **Database**: Databases like PostgreSQL or MongoDB can be used for storing user and transaction data.
+
+Installation and Operation
+
+### Frontend Installation
+
+- Go to `frontend` folder in the project directory:
+```bash
+cd frontend
+```
+
+- Install the required dependencies:
+```bash
+npm install
+```
+
+- Run the application in development mode:
+```bash
+npm run dev
+```
+
+#### Backend Setup
+
+- Go to `backend` folder in the project directory:
+```bash
+cd backend
+```
+
+- Install the required dependencies:
+```bash
+npm install
+```
+
+- Run the server:
+```bash
+node src/server.js
+```
+
+#### Distribution of Move Contracts
+
+- Go to `contracts` folder and run deployment scripts:
+```bash
+cd contracts
+./scripts/deploy_gpu_leasing.sh
+./scripts/deploy_nft_creation.sh
+```
